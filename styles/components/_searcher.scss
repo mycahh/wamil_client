@@ -1,0 +1,17 @@
+.searcher {
+    background-color: var(--white-text);
+    border-radius: 3px;
+    display: flex;
+    padding: 3px 3px 3px 8px;
+
+    & input{
+        width: 100%;
+    }
+
+    & button {
+        background-color: var(--secondary);
+        border-radius: 3px;
+        min-width: 100px;
+        height: 36px;
+    }
+}

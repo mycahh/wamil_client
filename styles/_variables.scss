@@ -1,0 +1,11 @@
+@import './base/variables';
+
+:root {
+    --primary-light: #{$primary-light};
+    --primary-dark: #{$primary-dark};
+    --secondary: #{$secondary};
+    --white-text: #{$white-text};
+    --black-text: #{$black-text};
+    --violet: #{$violet};
+}
+
