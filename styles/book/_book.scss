@@ -1,0 +1,27 @@
+.grid__libros, .grid__autores {
+    display: grid;
+    grid-auto-rows: 400px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 2rem;
+    gap: 2rem;
+}
+
+.btn-ficha {
+    padding: 8px;
+    font-size: 14px;
+    color: white;
+    background-color: var(--violet);
+    display: block;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card_author {
+    text-align: center;
+
+    & p {
+        font-weight: 700;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+}

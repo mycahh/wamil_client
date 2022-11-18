@@ -1,8 +1,13 @@
 html {
     font-family: sans-serif;
+    background-color: var(--background);
 }
 
-html, body, p {
+* {
+    box-sizing: border-box;
+}
+
+html, body, p, h3, h4, h1 {
     margin: 0;
     padding: 0;
 }
@@ -28,4 +33,15 @@ input, button {
 a {
     color: inherit;
     text-decoration: none;   
+}
+
+textarea {
+    border: 1px solid var(--secondary) !important;
+    height: 100px;
+}
+
+.file__desc {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
 }

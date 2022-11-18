@@ -1,0 +1,41 @@
+.collection_layout {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.category_text {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+
+    & p {
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    & span {
+        color: var(--violet);
+        font-size: 14px;
+    }
+}
+
+.card {
+    background-color: #d9d9d9;
+    padding: 16px;
+
+    & h3 {
+        font-weight: 700;
+        margin-top: 10px;
+    }
+
+}
+
+.collection_books {
+    display: grid;
+    grid-gap: 2rem;
+    gap: 2rem;
+    grid-auto-rows: 400px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}

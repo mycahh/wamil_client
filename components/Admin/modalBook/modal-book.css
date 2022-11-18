@@ -1,0 +1,49 @@
+h1 {
+    text-align: center;
+    line-height: 1.1em;
+}
+
+.modal-book {
+    position: relative;
+    width: 800px;
+    padding: 50px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.close {
+    top: 15px;
+    right: 15px;
+}
+
+
+.group-form .submenu{
+    display: flex;
+}
+
+.button-added {
+    background-color: var(--primary-light);
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.modal-book label{
+    font-weight: 700;
+}
+
+.file__book input {
+    margin-top: 10px;
+}
+
+.modal-book form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.modal-book input[type="text"] {
+    margin-top: 6px;
+    border-bottom: 1px solid var(--secondary);
+    padding-bottom: 4px;
+}

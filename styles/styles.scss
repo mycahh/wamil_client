@@ -5,4 +5,10 @@
 @import './components/navigation';
 @import './components/searcher';
 @import './components/user_button';
-@import './components/modal'
+@import './components/modal';
+@import './components/collections';
+
+@import './book/singleBook';
+@import './book/book';
+
+@import './admin/aside';

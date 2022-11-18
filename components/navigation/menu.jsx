@@ -4,9 +4,9 @@ export default function CollectionMenu() {
     
     return(
         <div>
-            <Link href="Libros">Libros</Link>
-            <Link href="Autores">Autores</Link>
-            <Link href="Géneros">Géneros</Link>
+            <Link href="/">Home</Link>
+            <Link href="/libros">Libros</Link>
+            <Link href="/autores">Autores</Link>
         </div>
     )
 }
