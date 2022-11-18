@@ -9,8 +9,8 @@ export default function NavigationComponent() {
     return (
         <nav className="navbar">
             <div className="container navbar_layout">
-                <div class="navbar_logo">
-                    <Image src="/logo.svg" width={220} height={47} alt="logo" />
+                <div class="navbar_logo book_logo">
+                    Bookify WAMIL
                 </div>
                 <div class="navbar_searcher">
                     <SearcherComponent />
